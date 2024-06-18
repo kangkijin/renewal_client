@@ -1,0 +1,259 @@
+{
+  "cnslrList" : [
+    {
+      "cnslrId": "0000001",
+      "cnslrNm": "이현우",
+      "colgCd": "100001",
+      "colgNm": "간호대학",
+      "sustCd": "100001",
+      "sustNm": "간호학과",
+      "img": "@/assets/images/common/img_ex3.png"
+    },
+    {
+      "cnslrId": "0000002",
+      "cnslrNm": "김한국",
+      "colgCd": "200001",
+      "colgNm": "공과대학",
+      "sustCd": "200001",
+      "sustNm": "컴퓨터공학과",
+      "img": "@/assets/images/common/img_ex2.png"
+    },
+    {
+      "cnslrId": "0000003",
+      "cnslrNm": "윤다인",
+      "colgCd": "200001",
+      "colgNm": "공과대학",
+      "sustCd": "300002",
+      "sustNm": "기계공학과",
+      "img": "@/assets/images/common/img_ex2.png"
+    },{
+      "cnslrId": "0000001",
+      "cnslrNm": "이현우",
+      "colgCd": "100001",
+      "colgNm": "간호대학",
+      "sustCd": "100001",
+      "sustNm": "간호학과",
+      "img": "@/assets/images/common/img_ex3.png"
+    },
+    {
+      "cnslrId": "0000002",
+      "cnslrNm": "김한국",
+      "colgCd": "200001",
+      "colgNm": "공과대학",
+      "sustCd": "200001",
+      "sustNm": "컴퓨터공학과",
+      "img": "@/assets/images/common/img_ex2.png"
+    },
+    {
+      "cnslrId": "0000003",
+      "cnslrNm": "윤다인",
+      "colgCd": "200001",
+      "colgNm": "공과대학",
+      "sustCd": "300002",
+      "sustNm": "기계공학과",
+      "img": "@/assets/images/common/img_ex2.png"
+    },{
+      "cnslrId": "0000001",
+      "cnslrNm": "이현우",
+      "colgCd": "100001",
+      "colgNm": "간호대학",
+      "sustCd": "100001",
+      "sustNm": "간호학과",
+      "img": "@/assets/images/common/img_ex3.png"
+    },
+    {
+      "cnslrId": "0000002",
+      "cnslrNm": "김한국",
+      "colgCd": "200001",
+      "colgNm": "공과대학",
+      "sustCd": "200001",
+      "sustNm": "컴퓨터공학과",
+      "img": "@/assets/images/common/img_ex2.png"
+    },
+    {
+      "cnslrId": "0000003",
+      "cnslrNm": "윤다인",
+      "colgCd": "200001",
+      "colgNm": "공과대학",
+      "sustCd": "300002",
+      "sustNm": "기계공학과",
+      "img": "@/assets/images/common/img_ex2.png"
+    },{
+      "cnslrId": "0000001",
+      "cnslrNm": "이현우",
+      "colgCd": "100001",
+      "colgNm": "간호대학",
+      "sustCd": "100001",
+      "sustNm": "간호학과",
+      "img": "@/assets/images/common/img_ex3.png"
+    },
+    {
+      "cnslrId": "0000002",
+      "cnslrNm": "김한국",
+      "colgCd": "200001",
+      "colgNm": "공과대학",
+      "sustCd": "200001",
+      "sustNm": "컴퓨터공학과",
+      "img": "@/assets/images/common/img_ex2.png"
+    },
+    {
+      "cnslrId": "0000003",
+      "cnslrNm": "윤다인",
+      "colgCd": "200001",
+      "colgNm": "공과대학",
+      "sustCd": "300002",
+      "sustNm": "기계공학과",
+      "img": "@/assets/images/common/img_ex2.png"
+    },{
+      "cnslrId": "0000001",
+      "cnslrNm": "이현우",
+      "colgCd": "100001",
+      "colgNm": "간호대학",
+      "sustCd": "100001",
+      "sustNm": "간호학과",
+      "img": "@/assets/images/common/img_ex3.png"
+    },
+    {
+      "cnslrId": "0000002",
+      "cnslrNm": "김한국",
+      "colgCd": "200001",
+      "colgNm": "공과대학",
+      "sustCd": "200001",
+      "sustNm": "컴퓨터공학과",
+      "img": "@/assets/images/common/img_ex2.png"
+    },
+    {
+      "cnslrId": "0000003",
+      "cnslrNm": "윤다인",
+      "colgCd": "200001",
+      "colgNm": "공과대학",
+      "sustCd": "300002",
+      "sustNm": "기계공학과",
+      "img": "@/assets/images/common/img_ex2.png"
+    },{
+      "cnslrId": "0000001",
+      "cnslrNm": "이현우",
+      "colgCd": "100001",
+      "colgNm": "간호대학",
+      "sustCd": "100001",
+      "sustNm": "간호학과",
+      "img": "@/assets/images/common/img_ex3.png"
+    },
+    {
+      "cnslrId": "0000002",
+      "cnslrNm": "김한국",
+      "colgCd": "200001",
+      "colgNm": "공과대학",
+      "sustCd": "200001",
+      "sustNm": "컴퓨터공학과",
+      "img": "@/assets/images/common/img_ex2.png"
+    },
+    {
+      "cnslrId": "0000003",
+      "cnslrNm": "윤다인",
+      "colgCd": "200001",
+      "colgNm": "공과대학",
+      "sustCd": "300002",
+      "sustNm": "기계공학과",
+      "img": "@/assets/images/common/img_ex2.png"
+    },{
+      "cnslrId": "0000001",
+      "cnslrNm": "이현우",
+      "colgCd": "100001",
+      "colgNm": "간호대학",
+      "sustCd": "100001",
+      "sustNm": "간호학과",
+      "img": "@/assets/images/common/img_ex3.png"
+    },
+    {
+      "cnslrId": "0000002",
+      "cnslrNm": "김한국",
+      "colgCd": "200001",
+      "colgNm": "공과대학",
+      "sustCd": "200001",
+      "sustNm": "컴퓨터공학과",
+      "img": "@/assets/images/common/img_ex2.png"
+    },
+    {
+      "cnslrId": "0000003",
+      "cnslrNm": "윤다인",
+      "colgCd": "200001",
+      "colgNm": "공과대학",
+      "sustCd": "300002",
+      "sustNm": "기계공학과",
+      "img": "@/assets/images/common/img_ex2.png"
+    },{
+      "cnslrId": "0000001",
+      "cnslrNm": "이현우",
+      "colgCd": "100001",
+      "colgNm": "간호대학",
+      "sustCd": "100001",
+      "sustNm": "간호학과",
+      "img": "@/assets/images/common/img_ex3.png"
+    },
+    {
+      "cnslrId": "0000002",
+      "cnslrNm": "김한국",
+      "colgCd": "200001",
+      "colgNm": "공과대학",
+      "sustCd": "200001",
+      "sustNm": "컴퓨터공학과",
+      "img": "@/assets/images/common/img_ex2.png"
+    },
+    {
+      "cnslrId": "0000003",
+      "cnslrNm": "윤다인",
+      "colgCd": "200001",
+      "colgNm": "공과대학",
+      "sustCd": "300002",
+      "sustNm": "기계공학과",
+      "img": "@/assets/images/common/img_ex2.png"
+    },{
+      "cnslrId": "0000001",
+      "cnslrNm": "이현우",
+      "colgCd": "100001",
+      "colgNm": "간호대학",
+      "sustCd": "100001",
+      "sustNm": "간호학과",
+      "img": "@/assets/images/common/img_ex3.png"
+    },
+    {
+      "cnslrId": "0000002",
+      "cnslrNm": "김한국",
+      "colgCd": "200001",
+      "colgNm": "공과대학",
+      "sustCd": "200001",
+      "sustNm": "컴퓨터공학과",
+      "img": "@/assets/images/common/img_ex2.png"
+    },
+    {
+      "cnslrId": "0000003",
+      "cnslrNm": "윤다인",
+      "colgCd": "200001",
+      "colgNm": "공과대학",
+      "sustCd": "300002",
+      "sustNm": "기계공학과",
+      "img": "@/assets/images/common/img_ex2.png"
+    }
+  ],
+  "staffList": [
+    {
+      "cnslrId": "9000001",
+      "cnslrNm": "오상담",
+      "colgCd": "900001",
+      "colgNm": "간호대학",
+      "sustCd": "900001",
+      "sustNm": "간호학과",
+      "img": "@/assets/images/common/img_ex1.png"
+    },
+    {
+      "cnslrId": "9000001",
+      "cnslrNm": "오상담",
+      "colgCd": "900002",
+      "colgNm": "간호대학",
+      "sustCd": "900001",
+      "sustNm": "간호학과",
+      "img": "@/assets/images/common/img_ex2.png"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="그룹_203123" data-name="그룹 203123" transform="translate(-628 -455)">
+    <g id="그룹_203130" data-name="그룹 203130" transform="translate(13)">
+      <rect id="사각형_113601" data-name="사각형 113601" width="24" height="24" transform="translate(615 455)" fill="none"/>
+      <g id="그룹_203115" data-name="그룹 203115" transform="translate(617.575 458.483)">
+        <g id="그룹_203119" data-name="그룹 203119" transform="translate(1.425 1.517)">
+          <g id="그룹_205012" data-name="그룹 205012">
+            <rect id="사각형_113594" data-name="사각형 113594" width="17" height="17" rx="2" transform="translate(0 -1)" fill="none" stroke="#222" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+            <rect id="사각형_113595" data-name="사각형 113595" width="3" height="3" rx="1" transform="translate(3 3)" fill="#222"/>
+            <rect id="사각형_113602" data-name="사각형 113602" width="3" height="3" rx="1" transform="translate(3 9)" fill="#222"/>
+            <line id="선_3650" data-name="선 3650" x2="5" transform="translate(9 4)" fill="none" stroke="#222" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+            <line id="선_3651" data-name="선 3651" x2="5" transform="translate(9 10)" fill="none" stroke="#222" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

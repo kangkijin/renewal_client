@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 42 42">
+  <g id="그룹_205076" data-name="그룹 205076" transform="translate(-1294 -2771)">
+    <rect id="사각형_113631" data-name="사각형 113631" width="42" height="42" transform="translate(1294 2771)" fill="none"/>
+    <g id="그룹_203245" data-name="그룹 203245" transform="translate(1295.912 2777.592)">
+      <path id="패스_54849" data-name="패스 54849" d="M34.564,11.639H7.426A3.88,3.88,0,0,1,3.547,7.76V4.879A3.88,3.88,0,0,1,7.426,1H34.564Z" transform="translate(1.157 0.409)" fill="#fff"/>
+      <path id="패스_54851" data-name="패스 54851" d="M30.368,11.639H27.526V1h2.842" transform="translate(8.195 0.408)" fill="#fff"/>
+      <path id="패스_54853" data-name="패스 54853" d="M32.017,19.864H4.879A3.88,3.88,0,0,1,1,15.985V13.1A3.88,3.88,0,0,1,4.879,9.225H32.017Z" transform="translate(0.409 2.823)" fill="#fff"/>
+      <path id="패스_54855" data-name="패스 54855" d="M27.821,19.864H24.979V9.225h2.842" transform="translate(7.447 2.823)" fill="#fff"/>
+      <path id="패스_54857" data-name="패스 54857" d="M22.6,23.247l-2.477-1.369-2.476,1.369v-9.91H22.6Z" transform="translate(5.294 4.03)" fill="#fff"/>
+      <g id="그룹_205075" data-name="그룹 205075">
+        <path id="패스_54850" data-name="패스 54850" d="M34.564,11.639H7.426A3.88,3.88,0,0,1,3.547,7.76V4.879A3.88,3.88,0,0,1,7.426,1H34.564Z" transform="translate(1.156 0.408)" fill="none" stroke="#222" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="패스_54852" data-name="패스 54852" d="M30.368,11.639H27.526V1h2.842" transform="translate(8.195 0.408)" fill="none" stroke="#222" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="패스_54854" data-name="패스 54854" d="M32.017,19.864H4.879A3.88,3.88,0,0,1,1,15.985V13.1A3.88,3.88,0,0,1,4.879,9.225H32.017Z" transform="translate(0.408 2.822)" fill="none" stroke="#222" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="패스_54856" data-name="패스 54856" d="M27.821,19.864H24.979V9.225h2.842" transform="translate(7.447 2.822)" fill="none" stroke="#222" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="패스_54858" data-name="패스 54858" d="M22.6,23.247l-2.477-1.369-2.476,1.369v-9.91H22.6Z" transform="translate(5.295 4.029)" fill="#61b0f5"/>
+      </g>
+    </g>
+  </g>
+</svg>

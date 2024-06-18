@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="그룹_202618" data-name="그룹 202618" transform="translate(-1589 -19)">
+    <rect id="사각형_113520" data-name="사각형 113520" width="24" height="24" transform="translate(1589 19)" fill="#fff" opacity="0"/>
+    <g id="그룹_206352" data-name="그룹 206352" transform="translate(0 1)">
+      <g id="그룹_202617" data-name="그룹 202617" transform="translate(16.75 3)">
+        <g id="그룹_202612" data-name="그룹 202612" transform="translate(1576 19)">
+          <g id="사각형_113515" data-name="사각형 113515" transform="translate(0.25)" fill="none" stroke="#585d72" stroke-width="1.5">
+            <rect width="17" height="17" rx="3" stroke="none"/>
+            <rect x="0.75" y="0.75" width="15.5" height="15.5" rx="2.25" fill="none"/>
+          </g>
+        </g>
+      </g>
+      <g id="그룹_206347" data-name="그룹 206347">
+        <rect id="사각형_114637" data-name="사각형 114637" width="6" height="1.5" transform="translate(1600 27)" fill="#585d72"/>
+        <rect id="사각형_114636" data-name="사각형 114636" width="6" height="1.5" transform="translate(1600 30)" fill="#585d72"/>
+        <circle id="타원_13482" data-name="타원 13482" cx="1" cy="1" r="1" transform="translate(1597 27)" fill="#585d72"/>
+        <circle id="타원_13483" data-name="타원 13483" cx="1" cy="1" r="1" transform="translate(1597 30)" fill="#585d72"/>
+      </g>
+    </g>
+  </g>
+</svg>

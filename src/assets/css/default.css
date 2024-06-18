@@ -1,0 +1,17 @@
+/** CSS 파일 집합소 */
+
+/* Dain css 파일 */
+@import url('./dl_global.css');
+@import url('./client/normalize.css');
+@import url('./client/grid.css');
+@import url('./client/formstyle.css');
+@import url('./client/table.css');
+@import url('./client/common_ui.css');
+@import url('./client/ui.css');
+@import url('./client/popup.css');
+@import url('./client/main.css');
+@import url('./client/program.css');
+@import url('./client/diagnosis.css');
+@import url('./client/prfsncnsl.css');
+@import url('./client/careeremploy.css');
+/* @import url('./'); */

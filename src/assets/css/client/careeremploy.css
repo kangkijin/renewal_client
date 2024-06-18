@@ -1,0 +1,1404 @@
+@charset "utf-8";
+
+.page_toparea.career .page_title {
+  padding-right: 800px;
+}
+.search_box.career {
+  border-radius: 8px;
+}
+.search_box.career .search_section {
+  padding: 18px 0;
+}
+.search_box.career .search_section .select_box.v-select, .search_box.career .search_section input.form_style {
+  height: 36px;
+}
+.search_box.career .search_section .select_box.v-select .vs__selected {
+  line-height: 32px;
+}
+
+/* 분야별진로설계 */
+.career_flex .box {
+  padding: 24px;
+}
+
+.career_flex .field_flex {  
+  gap: 12px;
+  margin-bottom: 0;
+  width: 420px;
+  flex: auto; 
+  flex-direction: column;
+}
+.field_flex > * {
+  margin: 0;
+}
+.field_select1 {
+  display: flex;
+  gap: 8px;
+}
+.field_select1 .select_box {
+  width: 100%;
+}
+.field_select1 .btn_primary {
+  flex-shrink: 0;
+}
+.field_select2 {
+  display: flex;
+  margin-bottom: 8px;
+  gap: 8px;
+}
+.field_select2 > * {
+  flex: 1;
+}
+
+.career_flex .career_slide {
+  padding: 0;   
+  width: 848px;
+  flex: auto;
+  overflow: hidden;
+}
+.career_flex .career_slide .no_slide {
+  display: flex; 
+  height: 224px;
+  align-items: center; justify-content: center; 
+}
+.career_flex .career_slide .no_slide p {
+  padding: 46px 14px 0;
+  color: var(--dark3); font-size: 2rem; line-height: 2.8rem;
+  background: url(/src/assets/images/common/img_no_slide.png) no-repeat center top;
+}
+
+.career_flex .career_slide .swiper-button-prev, .career_flex .career_slide .swiper-button-next {
+  -webkit-filter: brightness(0) invert(1);
+  filter: brightness(0) invert(1);
+}
+
+.career_flex .career_slide_item {
+  position: relative;
+}
+.career_flex .career_slide .info {
+  position: relative; z-index: 5;
+  display: flex;
+  padding: 68px;
+  height: 224px;
+  color: var(--white);
+  justify-content: center; flex-direction: column;
+}
+.career_slide .info strong {
+  font-size: 1.6rem; line-height: 3rem; font-weight: 500;
+}
+.career_slide .info p {
+  font-size: 3.2rem; line-height: 3.6rem; font-weight: 600;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  text-overflow: ellipsis;
+  overflow: hidden; 
+}
+.career_flex .career_slide .info::after {
+  position: absolute; left: 0; top: 0; 
+  z-index: -1;
+  content: "";
+  display: block;
+  width: 100%; height: 100%;
+  background-color: rgba(0,0,0, 0.12);
+}
+.career_flex .career_slide_item .img {
+  position: absolute; left: 0; top: 0;
+  width: 100%; height: 224px;
+  overflow: hidden;
+}
+.career_flex .career_slide_item .img img { 
+  position: absolute; left: 50%; top: 50%; 
+  transform: translate(-50%,-50%);
+}
+
+.career_flex2 {
+  height: 303px;
+}
+.search_box.career.field {
+  margin-bottom: 16px;
+}
+.search_box.career.field .search_row {
+  margin-left: 0;
+}
+.career_flex2 .career_search {
+  width: 420px; 
+  flex: auto; 
+} 
+.career_search .no_cnt {
+  display: flex;
+  height: 191px;
+  align-items: center; justify-content: center; 
+}
+.career_search .no_cnt p {
+  padding: 85px 14px 0;
+  color: var(--dark3); font-size: 2rem; line-height: 2.8rem;
+  background: url(/src/assets/images/common/img_no_notice.png) no-repeat center top;
+}
+.career_search .select_keyword_wrap {
+  margin-right: -23px;
+  margin-bottom: 20px;
+  height: 183px;
+  overflow-y: scroll;
+}
+
+.select_keyword {
+  position: relative;
+  display: inline-block;
+  margin-right: 8px; margin-bottom: 8px;
+}
+.select_keyword input {
+  display: none;
+}
+.select_keyword label {
+  display: flex;
+  padding: 7px 24px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.4rem; font-weight: 500; line-height: 2.2rem;
+  background-color: rgba(214,219,226, 0.3); 
+  border-radius: 18px;
+  cursor: pointer;
+  transition : 0.2s;
+}
+.select_keyword input:checked + label {
+  padding-right: 47px;
+  color: var(--white);
+  background-color: var(--navy);
+}
+.select_keyword .btn_delete_word {
+  position: absolute; right: 20px; top: 9px;
+  display: none;
+  transition : 0.2s;
+}
+.select_keyword .btn_delete_word::before {
+  width: 20px; height: 20px;
+  background-image: url(/src/assets/images/careerEmploy/icon_delete.png);
+  background-size: auto;
+}
+.select_keyword input:checked + label + .btn_delete_word {
+  display: block; 
+}
+
+.career_flex2 .career_result {
+  padding: 0;
+  width: 848px;
+  flex: auto;
+}
+.career_flex2 .career_result .result_area {
+  padding: 24px 32px 16px;
+  border-bottom: 1px solid var(--light1);
+}
+.career_result .result_area h4 { 
+  text-overflow: ellipsis;
+  white-space: nowrap; 
+  overflow: hidden; 
+}
+.career_result .result_wrap {
+  display: flex;
+}
+.career_result .result_wrap .view_area {
+  margin-right: 24px;
+  width: 124px;
+  flex-shrink: 0;
+}
+.career_result .result_wrap .view_area .img_wrap { 
+  position: relative;
+  width: 124px; height: 124px;
+  border-radius: 8px;
+}
+
+/* 썸네일 이미지 없을시 */
+.career_result .result_wrap .view_area .img_wrap::before {
+  position: absolute; left: 50%; top: 50%;
+  z-index: 1;
+  content: "";
+  display: block;
+  width: 80px; height: 50px;
+  background-image: url(../../images/common/logo_ui.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: translate(-50%,-50%);
+  background-size: contain;
+}
+.career_result .result_wrap .view_area .img_wrap::after { 
+  z-index: 0;
+  content: "";
+  display: block;
+  width: 100%; height: 100%;
+  background-color: rgba(204,206,212, 0.2);
+  border-radius: 8px;
+}
+.career_result .result_wrap .view_area .img_wrap:has(img)::before {
+  display: none;
+}
+.career_result .result_wrap .view_area .img_wrap:has(img)::after {
+  display: none;
+}
+
+.career_result .result_wrap .cnt_area {
+  position: relative;
+  margin-right: -23px;
+  padding-right: 15px; 
+  width: 100%; height: 146px;
+  overflow-y: scroll;
+} 
+.career_result .result_wrap .cnt_area .tit {
+  position: relative; 
+  margin-bottom: 12px;
+  padding-right: 80px;
+  font-weight: 600; font-size: 2.2rem; line-height: 3rem; 
+}
+.career_result .result_wrap .cnt_area .like {
+  position: absolute; right: 0; top: 0;
+  padding-left: 28px;
+  height: 24px;
+  line-height: 2.2rem; font-size: 1.4rem;
+  background: url(/src/assets/images/common/icon_like_color.png) no-repeat left 3px center;
+  background-size: 18px;
+}
+.career_result .result_wrap .cnt_area .cnt {
+  min-height: 63px; 
+  line-height: 2.1rem; font-weight: 500; 
+}
+.career_result .result_wrap .cnt_area .ability_wrap { 
+  margin-top: 11px; 
+}
+.career_result .result_wrap .cnt_area .ability_wrap .ability_label {
+  display: inline-block;
+  margin: 5px 8px 0 0;
+  padding: 0 8px;
+  line-height: 2.4rem; font-size: 1.3rem; font-weight: 500; color: #2D94F9;
+  background-color: rgba(45,148,249, 0.12);
+  border-radius: 2px;
+}
+
+.developer_area {
+  display: flex;
+  justify-content: space-between;
+}
+
+.developer_area .profile_wrap {
+  padding: 0 0 0 52px;
+  min-height: auto; height: 42px;
+}
+.developer_area .profile_wrap .name {
+  margin-bottom: 0;
+  font-size: 1.6rem; line-height: 2.2rem;
+}
+.developer_area .profile_wrap .part {
+  font-size: 1.2rem; line-height: 2.2rem;
+}
+.developer_area .profile_wrap .img_wrap {
+  width: 40px; height: 40px;
+}
+
+.developer_area .function {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.developer_area .function > * {
+  vertical-align: 0;
+}
+.developer_area .function .btn_icon.comment::before {
+  width: 24px; height: 24px;
+  background-size: auto;
+}
+
+.career_flex2 .career_result .developer_area {
+  padding: 16px 32px;
+}
+
+.select_label_row {
+  display: flex;
+  margin-right: 24px;
+  align-items: center; 
+} 
+.select_label_row > span {
+  display: inline-block;
+  width: 74px;
+  flex-shrink: 0;
+}
+
+/* 추천채용 */
+.search_box.career {
+  margin-bottom: 24px;
+}
+.search_box.career .search_row {
+  margin-left: 12px;
+  width: 367px;
+}
+.recrt_tab {
+  margin-bottom: 16px;
+  text-align: right;
+}
+.recrt_doublewrap {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+.recrt_viewitem {
+  position: relative;
+}
+.recrt_viewbox {
+  position: relative;
+  display: flex;
+  padding: 24px 110px 24px 24px;
+  height: 148px;
+  align-items: flex-start;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  transition : 0.2s;
+}
+.recrt_viewbox:hover {
+  background-color: #F6F9FE;
+}
+.recrt_viewbox .recrt_viewer, .recrt_viewbox .texter {
+  position: relative;
+  display: flex; flex-shrink: 0;
+  margin-right: 24px;
+  align-items: center; justify-content: center;
+  width: 100px; height: 100px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.recrt_viewer {
+  position: relative;
+  border: 1px solid var(--light2);
+}
+.recrt_viewer > img {
+  max-width: 80px;
+  max-height: 50px;
+}
+.recrt_viewer:has(img) {
+  background-color: #fff;
+}
+
+/* 썸네일 이미지 없을시 */
+.recrt_viewer::before {
+  position: absolute; left: 50%; top: 50%;
+  z-index: 1;
+  content: "";
+  display: block;
+  width: 80px; height: 50px;
+  background-image: url(../../images/common/logo_ui.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: translate(-50%,-50%);
+  background-size: contain;
+}
+.recrt_viewer::after { 
+  z-index: 0;
+  content: "";
+  display: block;
+  width: 100%; height: 100%;
+  background-color: rgba(204,206,212, 0.2);
+}
+.recrt_viewer:has(img)::before {
+  display: none;
+}
+.recrt_viewer:has(img)::after {
+  display: none;
+}
+
+.recrt_viewbox .title { 
+	display: table;
+	width: auto;
+	word-break: break-word;
+	table-layout: fixed;
+}
+.recrt_viewbox .title .txt { 
+	display: table-cell;
+	font-weight: inherit; word-break: break-word;
+  position: relative;
+  display: -webkit-box;
+  margin-bottom: 6px; 
+  font-size: 1.8rem; font-weight: 600; line-height: 2.6rem;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.recrt_viewbox .title .title_label { 
+	display: table-cell;
+	font-size: 0; line-height: 0; white-space: nowrap; vertical-align: top;
+}
+.recrt_viewbox .title .status_label {
+  margin-left: 6px; margin-top: 2px;
+  height: 24px;
+  line-height: 2.4rem;
+}
+
+.recrt_viewbox .labels {
+  margin-bottom: 26px;
+  display: -webkit-box; 
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.recrt_viewbox .labels > span {
+  display: inline-block;
+  vertical-align: 0; font-weight: 500; color: #395078;
+}
+.recrt_viewbox .labels > span::before {
+  content: "ㆍ";
+  margin: 0 -2px;
+}
+.recrt_viewbox .labels > span:first-child::before {
+  display: none;
+}
+.recrt_viewbox .function {
+  display: -webkit-box; 
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.recrt_viewbox .function > li {
+  display: inline-block;
+  vertical-align: 0; font-weight: 500; color: #585D72;
+}
+.recrt_viewbox .function > li::after {
+  position: relative; top: 1px;
+  content: "";
+  display: inline-block;
+  margin: 0 8px;
+  width: 1px; height: 12px;
+  vertical-align: 0;
+  background-color: var(--light3);
+}
+.recrt_viewbox .function > li:last-child::after {
+  display: none;
+}
+.recrt_viewbox .function > li.icon {
+  position: relative;
+  padding-left: 20px;
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+.recrt_viewbox .function .icon.grades {
+  background-image: url(../../images/program/icon_grades.svg);
+}
+.recrt_viewbox .function .icon.calendar {
+  background-image: url(../../images/program/icon_calendar_sm.svg);
+}
+.recrt_viewbox .function .icon.person {
+  background-image: url(../../images/program/icon_person_count.svg);
+}
+.recrt_viewbox .function > li > strong {
+  margin-right: 6px;
+  vertical-align: top; font-weight: inherit;
+}
+
+.recrt_viewitem .btn_like {
+  position: absolute; top: 24px; right: 24px; z-index: 1;
+}
+.recrt_viewitem .btn_like label {
+  width: 24px; height: 24px;
+  background-image: url(../../images/common/icon_like_gray.svg); 
+} 
+.recrt_viewitem .btn_round {
+  position: absolute; right: 24px; bottom: 24px;
+}
+.recrt_viewitem .btn_round.disabled, .recrt_viewitem .btn_round[disabled], .recrt_viewitem .btn_round:disabled {
+  background-color: var(--light1) !important;
+  border-color: var(--light1) !important;
+}
+
+.recrt_flex_wrap {
+  display: flex;
+  gap: 12px;
+}
+
+.recrt_flex_wrap > * {
+  min-height: 350px;
+}
+.recrt_flex_wrap > .recrt_company {
+  display: flex;
+  padding: 32px 37px 36px 42px;
+  width: 500px;
+  flex-shrink: 0;
+}
+.recrt_flex_wrap > .recrt_cnt {
+  display: flex;
+  padding: 32px 42px; 
+  flex: 1;
+}
+
+.recrt_company .viewer_wrap {
+  margin-right: 32px;
+  text-align: center;
+}
+.recrt_company .viewer_wrap .recrt_viewer {
+  margin-bottom: 24px;
+  display: flex;
+  width: 100px; height: 100px;
+  align-items: center; justify-content: center;
+  border: 1px solid var(--light2);
+  border-radius: 4px;
+  overflow: hidden;
+} 
+.recrt_company .list_wrap {
+  flex: 1;
+}
+.recrt_company .list_wrap .tit {
+  display: block;
+  margin-bottom: 12px;
+  padding-bottom: 16px;
+  min-height: 58px;
+  font-weight: 600; font-size: 2rem; line-height: 2.8rem;
+  border-bottom: 1px solid var(--dark1);
+}
+
+.recrt_list > li {
+  display: flex;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  font-weight: 500;
+  font-size: 1.4rem; line-height: 2.2rem;
+  border-bottom: 1px solid #E0E1E5;
+} 
+.recrt_list > li:last-child {
+  border-bottom: none;
+}
+.recrt_company .recrt_list > li {
+  margin-right: 16px;
+}
+.recrt_list > li strong {
+  display: block;
+  width: 90px;
+  flex-shrink: 0;
+  font-weight: 600;
+}
+
+.recrt_cnt .tit {
+  display: block;
+  margin-bottom: 24px;
+  font-size: 1.8rem; font-weight: 600;
+}
+.recrt_cnt .info_wrap {
+  margin-right: 62px;
+  width: 211px;
+  flex-shrink: 0;
+}
+.recrt_cnt .info_text {
+  flex: 1;
+}
+.recrt_cnt .info_text .cnt {
+  display: flex;
+  height: calc(100% - 44px);
+  flex-direction: column; justify-content: space-between;
+}
+.recrt_cnt .info_text .cnt > p {
+  margin-bottom: 20px;
+  line-height: 2.2rem; font-weight: 500;
+}
+.recrt_cnt .info_text .file_wrap {
+  text-align: right; 
+}
+.recrt_cnt .info_text .file_wrap .file_row {
+  display: flex;
+  margin-top: 4px;
+  margin-bottom: 0;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+.recrt_cnt .info_text .file_wrap .file_row .btn_icon.icon_only {
+  margin-left: 5px;
+}
+.recrt_cnt .info_text .file_wrap .file_row p {
+  display: inline-block;
+  color: var(--dark2);
+}
+
+/* 워크넷, 사람인 */
+.jobsearch_list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 12px;
+}
+.jobsearch_list .jobsearch_box {
+  padding: 0;
+  background-repeat: no-repeat;
+  background-position: right 24px bottom 24px;
+  transition : 0.2s;
+}
+.jobsearch_box:hover {
+  background-color: #F6F9FE;
+}
+.jobsearch_box.worknet {
+  background-image: url(../../images/careerEmploy/icon_worknet.svg);
+}
+.jobsearch_box.saramin {
+  background-image: url(../../images/careerEmploy/icon_saramin.svg);
+}
+.jobsearch_box > a {
+  display: block;
+  padding: 24px;
+  min-height: 336px;
+}
+.jobsearch_box .btn_like {
+  position: absolute; top: 24px; right: 24px;
+}
+.jobsearch_box .btn_like label {
+  width: 24px; height: 24px;
+  background-image: url(../../images/common/icon_like_gray.svg); 
+} 
+.jobsearch_box .tit {
+  display: -webkit-box; 
+  margin-bottom: 8px; 
+  font-size: 2rem; font-weight: 600; line-height: 2.8rem;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.jobsearch_box .tit strong {
+  display: inline-block;
+  margin-right: 8px;
+  vertical-align: 0; font-weight: inherit;
+}
+.jobsearch_box .date {
+  display: -webkit-box; 
+  margin-bottom: 24px;
+  font-weight: 500; color: var(--dark3);
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.jobsearch_box .date .status_label {
+  margin-right: 8px;
+  height: 24px; line-height: 2.4rem;
+}
+.jobsearch_box .info_list li {
+  display: -webkit-box; 
+  margin-bottom: 12px;
+  font-weight: 600; line-height: 2.4rem;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  text-overflow: ellipsis;
+  overflow: hidden; 
+}
+.jobsearch_box .info_list li:last-child {
+  margin-bottom: 0;
+  padding-right: 80px;
+}
+.jobsearch_box .info_list li strong {
+  display: inline-block;
+  margin-right: 24px;
+  min-width: 58px; 
+  vertical-align: 0; font-weight: 500; color: var(--dark3);
+}
+.jobsearch_box .info_list li span {
+  vertical-align: 0; font-weight: 600; 
+}
+
+/* 취업스펙 */
+.career_flex .spec_flex { 
+  margin-bottom: 0; 
+  width: 420px;
+  flex: auto; 
+}
+.career_flex .spec_flex .box {
+  padding: 24px 24px 16px;
+}
+.career_flex .spec_flex h4 {
+  font-size: 1.6rem; line-height: 2.4rem;
+}
+.spec_select {
+  display: grid;
+  margin-bottom: 8px;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.spec_select .select_box:first-child {
+  grid-column: 1/3;
+  grid-row: 1/2;
+}
+.spec_select input.form_style {
+  padding-right: 9px;
+}
+.spec_select .select_box.vs--disabled {
+  background-color: var(--white) !important;
+  cursor: default !important;
+}
+.spec_select .select_box.vs--disabled .vs__selected {
+  color: rgba(137,141,156, 0.5) !important;
+  cursor: default !important;
+}
+.spec_select .select_box.vs--disabled .vs__search {
+  cursor: default !important;
+}
+.spec_select .select_box.vs--disabled .vs__actions {
+  cursor: default !important;
+}
+
+.spec_select_footer {
+  display: flex;
+  justify-content: space-between;
+}
+.spec_select_footer .attach_filewrap {
+  padding-left: 78px;
+  width: 100%;
+}
+.spec_select_footer .attach_filewrap .btn_round {
+  padding: 6px;
+  width: 74px;
+}
+.spec_select_footer .attach_filewrap .btn_tooltip {
+  margin: 0 4px 0 0;
+  flex-shrink: 0;
+}
+.spec_select_footer .attach_filewrap .attach_file_list {
+  display: flex;
+  height: 20px;
+  align-items: center;
+}
+.spec_select_footer .attach_filewrap .attach_file_list .file_row {
+  display: inline-flex;
+  margin-bottom: 0;
+}
+.spec_select_footer .attach_filewrap .attach_file_list .file_row .file_name {
+  display: flex; 
+  margin-bottom: 0;
+  align-items: center;
+}
+.spec_select_footer .attach_filewrap .attach_file_list .file_row .file_name p {
+  display: -webkit-box; 
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  
+}
+.spec_select_footer .attach_filewrap .attach_file_list .file_row .btn_icon.delete {
+  margin-left: 6px;
+}
+.spec_select_footer .btn_primary {
+  margin-left: 14px;
+  flex-shrink: 0;
+}
+.career_flex .spec_flex .info {
+  margin-top: 1px;
+  color: var(--dark3); font-size: 1.2rem;
+}
+
+.spec_score {
+  font-weight: 500;
+}
+.spec_score .btn_tooltip {
+  margin-left: 4px;
+  vertical-align: super;
+}
+.spec_stnrd {
+  margin-bottom: 24px;
+}
+.spec_stnrd .tit {
+  display: block;
+  margin-bottom: 12px;
+  font-size: 1.8rem; font-weight: 600; line-height: 2.4rem;
+}
+.spec_stnrd p {
+  margin-bottom: 6px;
+  font-size: 1.4rem; font-weight: 500;
+}
+.spec_stnrd_info {
+  margin-top: 32px;
+}
+.spec_stnrd_info p {
+  margin-bottom: 6px;
+  font-weight: 500; color: var(--dark3);
+}
+
+.spec_title .section_subtit {
+  font-size: 1.8rem; line-height: 2.4rem;
+}
+.employspec_main .employspec_wrap .info {
+  flex: 1.27;
+}
+.employspec_main .employspec_wrap .info h4 {
+  margin: 8px 0;
+  font-weight: 500;
+}
+.employspec_main .employspec_wrap .info h4 strong {
+  vertical-align: 0; font-weight: 600; 
+}
+
+.employspec_main .employspec_wrap .info h4 span {
+  margin-left: 6px;
+}
+.employspec_main .employspec_wrap .info .btn_tooltip {
+  margin-left: 2px;
+  vertical-align: super;
+}
+.employspec_main .employspec_wrap .info .info_txt {
+  margin-bottom: 24px;
+  letter-spacing: -0.04em; line-height: 2.2rem; color: #4B5058;
+}
+
+.employspec_main .employspec_wrap .counsel_statis ul > li {
+  height: 108px;
+  background-color: #f6f7f8; 
+}
+.employspec_main .employspec_wrap .counsel_statis ul > li > div::after {
+  position: absolute; top: 5px; left: 0;
+  content: "";
+  display: inline-block;
+  width: 1px; height: 50px;
+  background-color: var(--light2);
+}
+.employspec_main .employspec_wrap .counsel_statis ul > li > div:first-child::after {
+  display: none;
+}
+.employspec_main .employspec_wrap .counsel_statis ul > li > div p {
+  font-weight: 500; font-size: 2rem;
+}
+.employspec_main .employspec_wrap .counsel_statis ul > li > div > p > span {
+  margin-right: 2px;
+  color: #222; font-weight: 600; font-size: 2.4rem;
+}
+.employspec_main .employspec_wrap .counsel_statis ul > li .credit p {
+  font-size: 2.4rem;
+}
+.employspec_main .employspec_wrap .counsel_statis ul > li .credit p > span {
+  margin-right: 0;
+}
+.employspec_main .employspec_wrap .counsel_statis ul > li .credit p > i {
+  margin: 0 4px;
+  vertical-align: 0; font-weight: inherit; font-size: 1.8rem; line-height: 2.7rem;
+}
+
+.employspec_main .employspec_wrap .graph_wrap {
+  position: relative;
+  flex: 1;
+}
+.employspec_main .employspec_wrap .graph_wrap .top_row {
+  position: relative;
+  z-index: 50;
+  text-align: right;
+}
+.employspec_main .employspec_wrap .graph_wrap .top_row .radio_sm_txt_wrap {
+  display: inline-flex;
+  margin-bottom: 0;
+}
+.employspec_main .employspec_wrap .graph_wrap .top_row .select_box {
+  display: inline-block;
+  margin-left: 24px;
+  width: 180px;
+}
+.employspec_main .employspec_wrap .graph {
+  height: 270px;
+}
+.employspec_main .employspec_wrap .graph .radar_chart { 
+  /* position: static; */
+  top: -12px;
+  min-height: auto !important;
+  height: 270px !important;
+}
+.employspec_main .employspec_wrap .apexcharts-legend.apx-legend-position-top.apexcharts-align-right {
+  top: auto !important; bottom: 0;
+}
+.employspec_main .employspec_wrap .apexcharts-legend.apexcharts-align-right .apexcharts-legend-series {
+  margin: 0 0 0 38px !important;
+}
+
+.empl_std_wrapper .search_box {
+  margin-bottom: 12px;
+} 
+.empl_std_wrapper .search_box .search_row {
+  margin-left: 8px;
+}
+.empl_std_list.box {
+  padding-right: 24px;
+}
+.empl_std_list .tbl_scroll.tbl table { 
+  font-size: 1.4rem;
+} 
+.empl_std_list .tbl_scroll.tbl table thead th {
+  padding: 8px 0px;
+  font-size: 1.4rem; line-height: 2.2rem;
+} 
+.empl_std_list .tbl_scroll.tbl table thead th.border_right {
+  padding-right: 16px;
+  border-color: var(--light3);
+}
+.empl_std_list .tbl_scroll.tbl table thead th.sub_tit {
+  height: 40px;
+  font-weight: 400;
+} 
+.empl_std_list .tbl_scroll.tbl table thead th.sub {
+  line-height: 1.8rem;
+}
+.empl_std_list .tbl_scroll .tbl_scroll_body { 
+  max-height: 701px;
+}  
+.empl_std_list .tbl_scroll.tbl table tbody td, .empl_std_list .tbl_scroll.tbl table tfoot td {
+  padding: 4px 2px;
+  min-height: 70px;
+  font-weight: 400;  line-height: 2rem; 
+  border-color: var(--light3);
+}
+.empl_std_list .tbl .good_std {
+  margin: 0 auto;
+  width: 24px; height: 24px;
+  background: url(../../images/careerEmploy/icon_good.png) center no-repeat;
+}
+.empl_std_list .tbl .name { 
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+.empl_std_list .tbl .ta_l {
+  padding-left: 12px !important;
+  min-height: 61px;
+}
+.empl_std_list .tbl_scroll.tbl table tbody th, .empl_std_list .tbl_scroll.tbl table tfoot th { 
+  border-color: var(--light3);
+}
+
+@media screen and (max-width: 1279px) {
+
+  /* 분야별진로설계 1279 */
+  .search_box.field .right > * {
+    margin-bottom: 5px;
+  }
+
+  /* 추천채용 1279 */
+  .page_toparea.career .page_title {
+    padding-right: 0;
+  }
+  .page_toparea.career .title_function {
+    position: static; 
+    flex-wrap: wrap;
+    flex-direction: column-reverse; 
+    margin: 16px 0 4px; 
+    align-items: flex-end;
+    transform: none;
+  }
+  .recrt_flex_wrap {
+    flex-direction: column;
+  }
+  .recrt_flex_wrap > * {
+    min-height: auto;
+  }
+  .recrt_flex_wrap > .recrt_company {
+    width: auto;
+  }
+  .recrt_cnt .info_wrap {
+    width: 300px;
+  }
+
+  /* 워크넷, 사람인 1279 */
+  .jobsearch_list {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* 취업스펙 1279 */
+  .employspec_main .employspec_wrap .graph_wrap .top_row {
+    margin-bottom: 16px;
+  }
+
+  .empl_std_wrapper .search_box .right > * {
+    margin-bottom: 4px;
+  }
+
+
+}
+
+
+@media screen and (max-width: 1024px) {
+
+  /* 분야별진로설계 1024 */
+  .career_flex {
+    display: flex;
+    gap: 12px;
+    flex-direction: column; 
+    flex-direction: column-reverse;
+  }
+  .career_flex .field_flex {
+    display: flex;
+    width: auto;
+    flex-direction: row;
+  }
+  .career_flex .field_flex .box {
+    display: flex;align-items: center; justify-content: center; flex-direction: column; 
+  } 
+  .career_flex .field_flex .box > * {
+    width: 100%;
+  }
+  .career_flex .career_slide {
+    margin: 0 auto;
+    width: 850px;
+    max-width: 100%;
+  }
+  .career_flex .career_slide .info {
+    padding: 42px;
+    height: 180px;
+  }
+  .career_slide .info p {
+    font-size: 2.8rem;
+  }
+  .career_flex2 {
+    height: auto;
+  }
+  .career_flex2 .career_search {
+    margin-bottom: 12px;
+    width: auto;
+  }
+  .career_search .select_keyword_wrap {
+    margin-right: -10px;
+    padding-right: 10px;
+    height: auto;
+    max-height: 130px;
+  }
+  .career_flex2 .career_result {
+    width: auto; min-height: 120px;
+  }
+  .career_flex2 .career_result .result_area {
+    padding: 24px;
+  }
+  .career_result .result_wrap .cnt_area {
+    margin-right: -10px;
+    padding-right: 10px;
+  }
+
+
+  .search_box.field .right > * {
+    margin-bottom: 5px;
+  }
+  .search_box.field .select_row {
+    margin-bottom: 0;
+  }
+
+  /* 추천채용 1024 */
+  .recrt_doublewrap {
+    grid-template-columns: repeat(1, 1fr);
+  } 
+  .recrt_flex_wrap > .recrt_company {
+    padding: 24px 32px 32px;
+  }
+  .recrt_cnt {
+    padding: 24px 32px 32px;
+  }
+  .recrt_cnt .info_wrap {
+    margin-right: 30px;
+  }
+
+  /* 워크넷, 사람인 1024 */ 
+  .jobsearch_list .jobsearch_box {
+    background-position: right 20px bottom 20px;
+  }
+  .jobsearch_box > a {
+    padding: 20px;
+    min-height: 288px;
+  }
+  .jobsearch_box .date {
+    margin-bottom: 16px;
+  }
+  .jobsearch_box .info_list li {
+    margin-bottom: 8px;
+  }
+
+  /* 취업스펙 1024 */ 
+  .career_flex .spec_flex {
+    width: auto;
+  } 
+  .employspec_main .employspec_wrap .graph {
+    margin-top: 0;
+    height: 300px;
+  } 
+  .employspec_main .employspec_wrap .info h4 {
+    margin-top: 0;
+  }
+
+  
+
+}
+
+@media screen and (max-width: 768px) {
+/* 
+  .page_toparea.career .title_function {
+    display: block;
+  } */
+
+  /* 분야별진로설계 768 */
+  .career_flex .career_slide .info {
+    padding: 32px;
+    height: 140px;
+  }
+  .career_slide .info p {
+    font-size: 2.4rem;
+  }
+  .career_flex .field_flex {
+    flex-direction: column;
+  }
+  .career_flex .field_flex .box {
+    padding: 24px 16px;
+  }
+  .career_flex .field_flex .box .vs__selected {
+    line-height: 32px;
+  }
+  .field_select1 .btn_primary {
+    height: auto;
+  }
+  .career_search .select_keyword_wrap {
+    margin-right: 0;
+    padding-right: 0;
+  }
+  .select_keyword label {
+    padding: 4px 14px;
+  }
+  .select_keyword input:checked + label {
+    padding-right: 38px;
+  }
+  .select_keyword input:checked + label + .btn_delete_word {
+    top: 4px; right: 12px;
+  }
+  .career_flex2 .career_result .result_area {
+    padding: 24px 16px;
+  }
+  .career_result .result_wrap .view_area {
+    margin-right: 16px;
+    width: 100px;
+  }
+  .career_result .result_wrap .view_area .img_wrap {
+    width: 100px; height: 100px;
+  }
+  .career_result .result_wrap .cnt_area {
+    margin-right: 0;  
+  }
+  .career_result .result_wrap .cnt_area .like {
+    padding-left: 24px;
+    height: 20px;
+  }
+  .career_result .result_wrap .cnt_area .tit {
+    padding-right: 60px;
+    font-size: 2rem; line-height: 2.4rem;
+  }
+  .career_flex2 .career_result .developer_area {
+    padding: 16px;
+  }
+
+  .search_box.field .right {
+    width: 100%;
+    flex-direction: column;
+  }
+  .search_box.field .right > * {
+    width: 100%;
+    margin: 0 0 5px 0;
+  }
+
+  /* 추천채용 768 */
+  .search_box.career .search_row {
+    margin-left: 0;
+    width: 100%;
+  }
+  .recrt_viewbox {
+    display: block;
+    padding: 16px;
+    height: auto;
+  } 
+  .recrt_doublewrap.rcmd .recrt_viewbox {
+    padding-bottom: 52px;
+  }
+  .recrt_viewbox .recrt_viewer {
+    margin: 0 auto 12px;
+    width: 86px; height: 86px;
+  }
+  .recrt_viewbox .labels {
+    margin-bottom: 14px;
+  }
+  .recrt_viewitem .btn_like {
+    top: 16px; right: 16px;
+  }
+  .recrt_viewitem .btn_round {
+    bottom: 16px; right: 16px;
+  }
+
+  .recrt_flex_wrap > .recrt_company {
+    padding: 16px 24px;
+  }
+  .recrt_company .viewer_wrap {
+    margin-right: 24px;
+  }
+  .recrt_flex_wrap > .recrt_cnt {
+    padding: 24px;
+    flex-direction: column;
+  }
+  .recrt_cnt .info_wrap {
+    margin-right: 0;
+    margin-bottom: 20px;
+    width: auto;
+  }
+  .recrt_cnt .tit {
+    margin-bottom: 16px;
+  }
+  .recrt_cnt .info_text .cnt {
+    height: auto;
+  }
+
+  /* 워크넷, 사람인 768 */ 
+  .jobsearch_list {
+    grid-template-columns: 1fr;
+  }
+
+  /* 취업스펙 768 */
+  
+  .career_flex .spec_flex .box {
+    padding: 24px 16px;
+  }
+  .spec_select {
+    grid-template-columns: 1fr;
+  }
+  .spec_select .select_box:first-child {
+    grid-column: auto;
+    grid-row: auto;
+  }
+  .spec_select .vs__selected {
+    line-height: 32px !important;
+  }
+  .employspec_main .vs__selected {
+    line-height: 32px !important;
+  }
+
+  .spec_title .title_function {
+    position: static;
+    margin-top: 10px;
+    display: block;
+    transform: none;
+    text-align: right;
+  }
+  .spec_score {
+    margin-bottom: 0;
+  }
+
+  .employspec_main .employspec_wrap .info {
+    margin-bottom: 24px;
+  }
+  .employspec_main .employspec_wrap .counsel_statis ul > li {
+    padding: 24px;
+    height: auto;
+    flex-wrap: wrap;
+  }
+  .employspec_main .employspec_wrap .counsel_statis ul > li > div {
+    padding: 16px 8px;
+    width: 50%;
+    border-right: 1px solid var(--light2);
+    border-bottom: 1px solid var(--light2);
+  }
+  .employspec_main .employspec_wrap .counsel_statis ul > li > div::after {
+    display: none;
+  }
+  .employspec_main .employspec_wrap .counsel_statis ul > li > div:nth-child(1), .employspec_main .employspec_wrap .counsel_statis ul > li > div:nth-child(2) {
+    padding: 0 8px 16px;
+  }
+  .employspec_main .employspec_wrap .counsel_statis ul > li > div:nth-child(3), .employspec_main .employspec_wrap .counsel_statis ul > li > div:nth-child(4) {
+    padding: 16px 8px 0;
+  }
+  .employspec_main .employspec_wrap .counsel_statis ul > li > div:nth-child(2), .employspec_main .employspec_wrap .counsel_statis ul > li > div:nth-child(4) {
+    border-right: none;
+  }
+  .employspec_main .employspec_wrap .counsel_statis ul > li > div:nth-child(3), .employspec_main .employspec_wrap .counsel_statis ul > li > div:nth-child(4) {
+    border-bottom: none;
+  }
+
+  .employspec_main .employspec_wrap .graph_wrap .top_row {
+    margin-bottom: 0;
+  }
+  .employspec_main .employspec_wrap .graph_wrap .top_row .select_box {
+    margin-left: 12px;
+  }
+  .empl_std_list .tbl .ta_l {
+    min-height: 50px;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+
+  /* 분야별진로설계 480 */ 
+  .career_result .result_wrap {
+    flex-direction: column;
+  }
+  .career_result .result_wrap .view_area {
+    margin-right: 0;
+    width: auto;
+  }
+  .career_result .result_wrap .view_area .img_wrap {
+    margin: 0 auto 16px;
+  } 
+
+  /* 추천채용 480 */
+  .recrt_doublewrap {
+    grid-template-columns: repeat(1, 1fr);
+  } 
+  .recrt_flex_wrap > .recrt_company {
+    flex-direction: column;
+  }
+  .recrt_company .viewer_wrap {
+    margin: 0 0 20px 0;
+    text-align: center;
+  }
+  .recrt_company .viewer_wrap .recrt_viewer {
+    margin: 0 auto 12px;
+  }
+  .recrt_company .list_wrap .tit {
+    padding-bottom: 10px;
+    min-height: auto;
+  }
+
+  /* 워크넷, 사람인 480 */ 
+  .jobsearch_list .jobsearch_box {
+    background-position: right 14px bottom 14px;
+  }
+  .jobsearch_box > a {
+    padding: 16px 16px 34px;
+    min-height: 278px;
+  }
+  .jobsearch_box .info_list li {
+    margin-bottom: 4px;
+  } 
+  .jobsearch_box .info_list li:last-child {
+    padding-right: 0;
+  }
+
+  /* 취업스펙 480 */
+  .spec_select {
+    grid-template-columns: 1fr;
+  }
+  .spec_select_footer {
+    flex-direction: column;
+  }
+  .spec_select_footer .attach_filewrap { 
+    margin-bottom: 12px;
+    padding-bottom: 0;
+  }
+  .spec_select_footer .attach_filewrap .btn_tooltip {
+    margin-right: 6px;
+  }
+  .spec_select_footer .btn_primary {
+    margin-left: 0;
+    margin-bottom: 12px;
+  }
+
+  .employspec_main .employspec_wrap .counsel_statis ul > li {
+    padding: 16px;
+  } 
+  .employspec_main .employspec_wrap .apexcharts-legend.apexcharts-align-right .apexcharts-legend-series {
+    margin: 0 0 0 16px !important;
+  } 
+  
+}
+
+
+
